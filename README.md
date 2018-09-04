@@ -6,5 +6,3 @@
 * Python version: 3.6.5 / Tensorflow version: 1.10.0
 * 원본소스코드 출처: https://github.com/hunkim/DeepLearningZeroToAll/
 * 강좌링크: http://hunkim.github.io/ml/
-
-<img width=500 height=500 src="/Users/gim-yunsu/PycharmProjects/BasicDL.png"></img>
