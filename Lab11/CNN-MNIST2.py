@@ -96,7 +96,7 @@ with tf.Session() as sess:
     #Get one and Predict
     r = random.randint(0, mnist.test.num_examples - 1)
     print('Lable:', sess.run(tf.argmax(mnist.test.labels[r:r+1], 1)))
-    print('Prediction:', sess.run(tf.argmax(logits, 1), feed_dict={X: mnist.test.images, Y: mnist.test.labels}))
+    print('Prediction:', sess.run(tf.argmax(logits, 1), feed_dict={X: mnist.test.images[r:r+1]}))
 
     plt.imshow(mnist.test.images[r:r+1].reshape(28,28), cmap='Greys', interpolation='nearest')
     plt.show()
